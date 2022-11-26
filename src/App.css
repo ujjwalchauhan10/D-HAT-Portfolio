@@ -1,6 +1,7 @@
 .body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 .bg-1 {
@@ -13,8 +14,54 @@
 .landing {
   height: 100vh;
 }
-.center{
+
+.nav-font {
+  font-family: 'Outfit';
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.landing-head {
+  font-family: 'Lexend';
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 600;
+  margin-top: 5vh;
+
+}
+
+.t-red {
+  color: #D33F00;
+  font-weight: 600;
+}
+
+.mission-head {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+  color: #727272;
+}
+
+.mission-content {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.bg-2{
+  background-image: url("./Assets/bg2.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
 }

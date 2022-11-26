@@ -25,7 +25,7 @@ const Landing = () => {
                                 className="collapse navbar-collapse"
                                 id="navbarText"
                             >
-                                <ul className="navbar-nav mx-auto mb-2 mb-lg-0 my-4">
+                                <ul className="navbar-nav mx-auto mb-2 mb-lg-0 my-4 nav-font">
                                     <li className="nav-item text-white mx-4 ms-auto">
                                         Services
                                     </li>
@@ -46,22 +46,42 @@ const Landing = () => {
                         </div>
                     </nav>
                 </div>
-                <div className="row center my-auto">
+                <div className="row center">
                     <div className="col-10">
                         <div className="container-fluid">
-                            <div className="row my-auto ">
+                            <div className="row ">
                                 <div className="col-md-6">
-                                    <h1 className="text-white">
-                                        EXPLORE<br></br> THE<br></br> NEW
-                                        <br></br>
-                                        WORLD<br></br> OF WEB 3.0
+                                    <div className="text-white landing-head">
+                                        <h1>EXPLORE</h1>
+                                        <h1>The</h1>
+                                        <h1>New</h1>
+                                        <h1>World</h1>
+                                        <h1>
+                                            OF
+                                            <span className="t-red">
+                                                WEB 3.0
+                                            </span>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <h1 className="mission-head">
+                                        Our Mission
                                     </h1>
+                                    <div className="text-white mission-content">
+                                        We aim forward to explore the blockchain
+                                        space and assist each other, join us and
+                                        be a part of the spectacular journey.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="container-fluid bg-2 provide"></div>
         </div>
     );
 };
