@@ -89,7 +89,7 @@ const Landing = () => {
                             Blockchain Consultancy
                         </span>
                         <br></br>and
-                        <span className="text-pro px-1">WEB 3 solutions</span>
+                        <span className="text-pro px-1">WEB 3 Solutions</span>
                         for your needs.”
                     </div>
                 </div>

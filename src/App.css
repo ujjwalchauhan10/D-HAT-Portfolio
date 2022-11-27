@@ -80,7 +80,6 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #AAAAAA;
-
 }
 
 .text-pro {
@@ -98,8 +97,8 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   text-align: center;
   color: #FFFFFF;
 }
@@ -118,25 +117,67 @@
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  .landing-t-size{
+  .landing-t-size {
     font-size: 2.5rem;
     line-height: 2.5rem;
     font-weight: 600;
+  }
+
+  .landing-t-size {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .provide-line1 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .text-pro {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .we-provide {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  .landing-t-size{
+  .landing-t-size {
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 600;
+  }
+
+  .landing-t-size {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .provide-line1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .text-pro {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .we-provide {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .landing-t-size{
+  .landing-t-size {
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 600;
@@ -145,7 +186,7 @@
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) {
-  .landing-t-size{
+  .landing-t-size {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 600;
