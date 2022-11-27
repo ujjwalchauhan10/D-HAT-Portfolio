@@ -113,19 +113,24 @@
   gap: 1rem;
   justify-content: space-around;
 }
-
+.line1-space{
+  margin-top: 2vh;
+}
+.we-provide{
+  margin-top: 20vh;
+}
+.line2-space{
+  margin-bottom: 30vh;
+}
+.services{
+  margin-bottom: 5vh;
+}
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .landing-t-size {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    font-weight: 600;
-  }
-
-  .landing-t-size {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.7rem;
+    line-height: 2.7rem;
     font-weight: 600;
   }
 
@@ -142,6 +147,18 @@
   .we-provide {
     font-size: 1.5rem;
     line-height: 1.5rem;
+  }
+  .line1-space{
+    margin-top: 5vh;
+  }
+  .we-provide{
+    margin-top: 10vh;
+  }
+  .line2-space{
+    margin-bottom: 10vh;
+  }
+  .services{
+    margin-bottom: 15vh;
   }
 }
 
@@ -191,4 +208,5 @@
     line-height: 4rem;
     font-weight: 600;
   }
+  
 }
