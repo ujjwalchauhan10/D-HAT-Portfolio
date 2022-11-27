@@ -16,7 +16,7 @@ const WeProvide = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="we-provide">We Provide</div>
+                    <div className="we-provide we-provide-spacer">We Provide</div>
                     <div className="provide-line1 line2-space">
                         The
                         <span className="text-pro px-1">safest</span>
