@@ -2,6 +2,8 @@ import React from "react";
 import OnNetworks from "./OnNetworks";
 import WeProvide from "./WeProvide";
 import WeBuilt from "./WeBuilt";
+import OurClients from "./OurClients";
+import Team from "../Components/Team";
 const Landing = () => {
     return (
         <div>
@@ -87,6 +89,8 @@ const Landing = () => {
             <div className="bg-stars">
                 <OnNetworks/>
                 <WeBuilt/>
+                <OurClients/>
+                <Team/>
             </div>
         </div>
     );
