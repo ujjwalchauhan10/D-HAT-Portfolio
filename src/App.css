@@ -11,10 +11,6 @@
   background-size: cover;
 }
 
-.landing {
-  height: 100vh;
-}
-
 .nav-font {
   font-family: 'Nunito';
 }
@@ -27,16 +23,13 @@
 
 .landing-head {
   font-family: 'Lexend';
-  font-size: 4rem;
-  line-height: 4rem;
-  font-weight: 600;
   margin-top: 10vh;
-
 }
 
 .t-red {
   color: #D33F00;
   font-weight: 600;
+  margin-left: .8rem;
 }
 
 .mission-head {
@@ -56,6 +49,7 @@
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.5rem;
+  margin-bottom: 20vh;
 }
 
 .bg-2 {
@@ -63,7 +57,6 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 100vh;
 }
 
 .provide-card {
@@ -125,14 +118,36 @@
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .landing-t-size{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
+  .landing-t-size{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .landing-t-size{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+}
 
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+  .landing-t-size{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 600;
+  }
+}

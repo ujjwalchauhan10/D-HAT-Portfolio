@@ -52,14 +52,14 @@ const Landing = () => {
                             <div className="row ">
                                 <div className="col-md-6">
                                     <div className="text-white landing-head">
-                                        <h1>EXPLORE</h1>
-                                        <h1>The</h1>
-                                        <h1>New</h1>
-                                        <h1>World</h1>
-                                        <h1>
+                                        <h1 className="landing-t-size">EXPLORE</h1>
+                                        <h1 className="landing-t-size">The</h1>
+                                        <h1 className="landing-t-size">New</h1>
+                                        <h1 className="landing-t-size">World</h1>
+                                        <h1 className="landing-t-size">
                                             OF
                                             <span className="t-red">
-                                                WEB 3.0
+                                                 WEB 3.0
                                             </span>
                                         </h1>
                                     </div>
