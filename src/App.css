@@ -16,7 +16,7 @@
 }
 
 .nav-font {
-  font-family: 'Outfit';
+  font-family: 'Nunito';
 }
 
 .center {
@@ -30,7 +30,7 @@
   font-size: 4rem;
   line-height: 4rem;
   font-weight: 600;
-  margin-top: 5vh;
+  margin-top: 10vh;
 
 }
 
@@ -58,10 +58,81 @@
   line-height: 1.5rem;
 }
 
-.bg-2{
+.bg-2 {
   background-image: url("./Assets/bg2.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   height: 100vh;
 }
+
+.provide-card {
+  width: 10.4rem;
+  height: 8rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 0.75rem;
+}
+
+.provide-text {
+  color: white;
+}
+
+.provide-line1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+
+}
+
+.text-pro {
+  color: white;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.we-provide {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.col-gray {
+  color: #AAAAAA;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {}
