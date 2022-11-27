@@ -164,13 +164,36 @@
   color: #AAAAAA;
 }
 
-.on-networks{
+.on-networks {
   margin-top: 10vh;
 }
-.networks-img{
+
+.networks-img {
   margin-top: 5vh;
   margin-bottom: 10vh;
 }
+
+.what {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.we-have {
+  font-size: 1.5rem;
+}
+
+.bg-4 {
+  background-image: url("./Assets/bg4.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .landing-t-size {
@@ -216,6 +239,16 @@
   }
 
   .networks-line2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .what {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .we-have {
     font-size: 1rem;
     line-height: 1.2rem;
   }
