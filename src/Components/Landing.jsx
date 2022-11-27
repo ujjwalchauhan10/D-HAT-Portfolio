@@ -4,6 +4,7 @@ import WeProvide from "./WeProvide";
 import WeBuilt from "./WeBuilt";
 import OurClients from "./OurClients";
 import Team from "../Components/Team";
+import ContactUs from "./ContactUs";
 const Landing = () => {
     return (
         <div>
@@ -91,6 +92,7 @@ const Landing = () => {
                 <WeBuilt/>
                 <OurClients/>
                 <Team/>
+                <ContactUs/>
             </div>
         </div>
     );
