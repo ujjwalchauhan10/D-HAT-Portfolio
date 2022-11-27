@@ -1,5 +1,7 @@
 import React from "react";
+import OnNetworks from "./OnNetworks";
 import WeProvide from "./WeProvide";
+import WeBuilt from "./WeBuilt";
 const Landing = () => {
     return (
         <div>
@@ -82,6 +84,10 @@ const Landing = () => {
                 </div>
             </div>
             <WeProvide/>
+            <div className="bg-stars">
+                <OnNetworks/>
+                <WeBuilt/>
+            </div>
         </div>
     );
 };
