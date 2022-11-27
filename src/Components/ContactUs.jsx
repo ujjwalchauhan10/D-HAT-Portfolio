@@ -1,4 +1,4 @@
-import React,{ useState, useRef} from "react";
+import React, { useState, useRef } from "react";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
@@ -12,7 +12,7 @@ const initialValues = {
 const ContactUs = (props) => {
     const [values, setValues] = useState(initialValues);
     const [emailError, setEmailError] = useState(false);
-    const [phone, setPhone] = useState('');
+    const [phone, setPhone] = useState("");
     const errorRef = useRef(null);
     const formRef = useRef(null);
 
@@ -54,85 +54,99 @@ const ContactUs = (props) => {
 
     return (
         <div>
-            <div className="container col-12">
-                <div className="container col-10" id="formContainer">
-                    <form className="row g-3" ref={formRef}>
-                        <div className="col-md-6">
-                            <label htmlFor="fullName" className="form-label">
-                                Full Name
-                            </label>
-                            <input
-                                name="fullName"
-                                value={values.fullName}
-                                type="text"
-                                className="formCont"
-                                id="inputName"
-                                placeholder="Sherlock Holmes"
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div className="col-md-6">
-                            <div>Phone Number</div>
-                            <PhoneInput
-                                name="phone"
-                                placeholder="Enter phone number"
-                                value={phone}
-                                onChange={setPhone}
-                                id="phone"
-                                className="formCont"
-                            />
-                        </div>
-                        <div className="col-md-6">
-                            <label htmlFor="email" className="form-label">
-                                Email
-                            </label>
-                            <input
-                                name="email"
-                                value={values.email}
-                                type="email"
-                                className="formCont test"
-                                id="inputEmail"
-                                onChange={handleChange}
-                            />
-                            <div ref={errorRef} hidden={true} className="emailError">
-                                Enter a Valid Email!
+            <div className="container-fluid">
+                <div className="container col-11 form-container">
+                    <form className="row" ref={formRef}>
+                        <div className="col-lg-6 bg-5 center">
+                            <div className="we-provide poppins">
+                                Have a project?<br></br> We would love<br></br> to help.
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <label htmlFor="socialLink" className="form-label">
-                                Twitter/LinkedIn
-                            </label>
-                            <input
-                                name="socialLink"
-                                value={values.socialLink}
-                                type="text"
-                                className="formCont"
-                                id="inputTwitter"
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div className="col-12">
-                            <label htmlFor="query" className="form-label">
-                                Query
-                            </label>
-                            <input
-                                name="query"
-                                value={values.query}
-                                type="text"
-                                className="formCont"
-                                id="inputQuery"
-                                placeholder="So, amm"
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div className="col-12">
-                            <button
-                                type="submit"
-                                className="btn btn-secondary"
-                                // onClick={handleSubmit}
-                            >
-                                Send
-                            </button>
+                        <div className="col-lg-6 bg-6 col-right">
+                            <div className="row">
+                                <label
+                                    htmlFor="fullName"
+                                    className="form-label"
+                                >
+                                    Full Name
+                                </label>
+                                <input
+                                    name="fullName"
+                                    value={values.fullName}
+                                    type="text"
+                                    className="formCont"
+                                    id="inputName"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="row">
+                                <label className="form-label">Phone Number</label>
+                                <PhoneInput
+                                    name="phone"
+                                    value={phone}
+                                    onChange={setPhone}
+                                    id="phone"
+                                    className="formCont"
+                                />
+                            </div>
+                            <div className="row">
+                                <label htmlFor="email" className="form-label">
+                                    Email
+                                </label>
+                                <input
+                                    name="email"
+                                    value={values.email}
+                                    type="email"
+                                    className="formCont test"
+                                    id="inputEmail"
+                                    onChange={handleChange}
+                                />
+                                <div
+                                    ref={errorRef}
+                                    hidden={true}
+                                    className="emailError"
+                                >
+                                    Enter a Valid Email!
+                                </div>
+                            </div>
+                            <div className="row">
+                                <label
+                                    htmlFor="socialLink"
+                                    className="form-label"
+                                >
+                                    Twitter/LinkedIn
+                                </label>
+                                <input
+                                    name="socialLink"
+                                    value={values.socialLink}
+                                    type="text"
+                                    className="formCont"
+                                    id="inputTwitter"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="row">
+                                <label htmlFor="query" className="form-label">
+                                    Query
+                                </label>
+                                <input
+                                    name="query"
+                                    value={values.query}
+                                    type="text"
+                                    className="formCont"
+                                    id="inputQuery"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="row center btn-margin">
+                                <div
+                                    type="submit"
+                                    className="button-5"
+                                    // onClick={handleSubmit}
+                                >
+                                    Send
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>

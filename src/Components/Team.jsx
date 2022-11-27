@@ -25,7 +25,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="row center client-spacer">
-                    <div className="col-10">
+                    <div className="col-11">
                         <div className="marquee">
                             <div className="marquee__group">
                                 <a
@@ -37,7 +37,7 @@ const Team = () => {
                                         <img
                                             src={vardhan}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -50,7 +50,7 @@ const Team = () => {
                                         <img
                                             src={tushar}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -63,7 +63,7 @@ const Team = () => {
                                         <img
                                             src={divyansh}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -76,7 +76,7 @@ const Team = () => {
                                         <img
                                             src={aakarsh}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -89,7 +89,7 @@ const Team = () => {
                                         <img
                                             src={azhar}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -102,7 +102,7 @@ const Team = () => {
                                         <img
                                             src={ujjwal}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -115,7 +115,7 @@ const Team = () => {
                                         <img
                                             src={kartikey}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -128,7 +128,7 @@ const Team = () => {
                                         <img
                                             src={aarush}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -141,7 +141,7 @@ const Team = () => {
                                         <img
                                             src={naruto}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -157,7 +157,7 @@ const Team = () => {
                                         <img
                                             src={vardhan}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -170,7 +170,7 @@ const Team = () => {
                                         <img
                                             src={tushar}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -183,7 +183,7 @@ const Team = () => {
                                         <img
                                             src={divyansh}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -196,7 +196,7 @@ const Team = () => {
                                         <img
                                             src={aakarsh}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -209,7 +209,7 @@ const Team = () => {
                                         <img
                                             src={azhar}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -222,7 +222,7 @@ const Team = () => {
                                         <img
                                             src={ujjwal}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -235,7 +235,7 @@ const Team = () => {
                                         <img
                                             src={kartikey}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -248,7 +248,7 @@ const Team = () => {
                                         <img
                                             src={aarush}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>
@@ -261,7 +261,7 @@ const Team = () => {
                                         <img
                                             src={naruto}
                                             alt=""
-                                            className="iconImages"
+                                            className="iconImages2"
                                         />
                                     </div>
                                 </a>

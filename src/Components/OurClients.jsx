@@ -12,7 +12,7 @@ const OurClients = () => {
                     <div className="our-clients">Our Clients</div>
                 </div>
                 <div className="row center client-spacer">
-                    <div className="col-10">
+                    <div className="col-11">
                         <div className="marquee">
                             <div className="marquee__group">
                                 <a

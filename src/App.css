@@ -242,27 +242,60 @@
   text-align: center;
   color: #FFFFFF;
 }
-.client-spacer{
+
+.client-spacer {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-.iconImages{
-  height: 12.5rem;
+
+.iconImages {
+  height: 16.5rem;
 }
-.col-gray{
+.iconImages2 {
+  height: 26.5rem;
+}
+.col-gray {
   color: #AAAAAA;
 }
+
 .formCont {
-  font-family: inherit;
+  font-family: 'poppins';
   width: 100%;
   border: 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
   outline: 0;
   font-size: 1.3rem;
-  color: gray;
+  color: white;
   padding: 7px 0;
   background: transparent;
   border-radius: 0;
+}
+.form-label{
+  color: #FFFFFF;
+}
+
+.poppins {
+  font-family: 'poppins';
+}
+
+#phone {
+  border: 0;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.bg-6 {
+  background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.col-right{
+  padding: 5rem;
+}
+.btn-margin{
+  margin-top: 5vh;
+}
+.form-container{
+  padding-bottom: 5vh;
 }
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
@@ -291,7 +324,7 @@
     margin-top: 5vh;
   }
 
-  .we-provide {
+  .we-provide-spacer {
     margin-top: 10vh;
   }
 
@@ -327,13 +360,27 @@
     font-size: 1.5rem;
     line-height: 1.5rem;
   }
-  .iconImages{
+
+  .iconImages {
     height: 8.5rem;
+  }
+  .iconImages2 {
+    height: 15.5rem;
+  }
+  .col-right{
+    padding: 2rem;
+  }
+  .btn-margin{
+    margin-top: 2vh;
+  }
+  .bg-6{
+    border-radius: 1.25rem;
   }
 }
 
+
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 991px) {
   .landing-t-size {
     font-size: 3rem;
     line-height: 3rem;
@@ -375,17 +422,33 @@
     font-size: 2rem;
     line-height: 2rem;
   }
-  .iconImages{
+
+  .iconImages {
     height: 10.5rem;
+  }
+  .iconImages2 {
+    height: 20.5rem;
+  }
+  .col-right{
+    padding: 3rem;
+  }
+  .bg-6{
+    border-radius: 1.25rem;
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1024px) {
   .landing-t-size {
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 600;
+  }
+  .bg-5 {
+    background-image: url("./Assets/bg5.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
   }
 }
 
@@ -396,5 +459,57 @@
     line-height: 4rem;
     font-weight: 600;
   }
+  .bg-5 {
+    background-image: url("./Assets/bg5.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+}
 
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 3.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 40%;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
 }
