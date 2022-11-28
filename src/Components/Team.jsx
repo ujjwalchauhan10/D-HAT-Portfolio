@@ -8,6 +8,7 @@ import kartikey from "../Assets/Team/Kartikey.svg";
 import naruto from "../Assets/Team/Naruto.svg";
 import aarush from "../Assets/Team/Aarush.svg";
 import aakarsh from "../Assets/Team/Aakarsh.svg";
+import upendra from "../Assets/Team/Upendra.svg";
 
 const Team = (props) => {
     return (
@@ -145,6 +146,19 @@ const Team = (props) => {
                                         />
                                     </div>
                                 </a>
+                                <a
+                                    href="https://www.linkedin.com/in/upendratripathi9/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <div>
+                                        <img
+                                            src={upendra}
+                                            alt=""
+                                            className="iconImages2"
+                                        />
+                                    </div>
+                                </a>
                             </div>
 
                             <div aria-hidden="true" className="marquee__group">
@@ -260,6 +274,19 @@ const Team = (props) => {
                                     <div>
                                         <img
                                             src={naruto}
+                                            alt=""
+                                            className="iconImages2"
+                                        />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/in/upendratripathi9/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <div>
+                                        <img
+                                            src={upendra}
                                             alt=""
                                             className="iconImages2"
                                         />
