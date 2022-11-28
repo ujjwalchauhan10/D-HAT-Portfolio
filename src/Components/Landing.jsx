@@ -44,7 +44,7 @@ const Landing = () => {
                                         Team
                                     </li>
                                     <li className="nav-item text-white mx-4 ms-auto">
-                                        Contact Us
+                                        Contact
                                     </li>
                                 </ul>
                             </div>

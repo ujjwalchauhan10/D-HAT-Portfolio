@@ -251,9 +251,11 @@
 .iconImages {
   height: 16.5rem;
 }
+
 .iconImages2 {
   height: 26.5rem;
 }
+
 .col-gray {
   color: #AAAAAA;
 }
@@ -270,7 +272,8 @@
   background: transparent;
   border-radius: 0;
 }
-.form-label{
+
+.form-label {
   color: #FFFFFF;
 }
 
@@ -288,15 +291,23 @@
   background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.col-right{
+
+.col-right {
   padding: 5rem;
 }
-.btn-margin{
+
+.btn-margin {
   margin-top: 5vh;
 }
-.form-container{
+
+.form-container {
   padding-bottom: 5vh;
 }
+
+.t-orange {
+  color: #e15b0e;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .landing-t-size {
@@ -331,6 +342,7 @@
   .line2-space {
     margin-bottom: 10vh;
   }
+
   .provide-card {
     width: 8.5rem;
     height: 8rem;
@@ -340,6 +352,7 @@
     font-size: .9rem;
     text-align: center;
   }
+
   .services {
     margin-bottom: 15vh;
   }
@@ -372,17 +385,28 @@
   .iconImages {
     height: 8.5rem;
   }
+
   .iconImages2 {
     height: 15.5rem;
   }
-  .col-right{
+
+  .col-right {
     padding: 2rem;
   }
-  .btn-margin{
+
+  .btn-margin {
     margin-top: 2vh;
   }
-  .bg-6{
+
+  .bg-6 {
     border-radius: 1.25rem;
+  }
+
+  .bg-6 {
+    background-image: url("./Assets/bg5.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
   }
 }
 
@@ -434,14 +458,24 @@
   .iconImages {
     height: 10.5rem;
   }
+
   .iconImages2 {
     height: 20.5rem;
   }
-  .col-right{
+
+  .col-right {
     padding: 3rem;
   }
-  .bg-6{
+
+  .bg-6 {
     border-radius: 1.25rem;
+  }
+
+  .bg-6 {
+    background-image: url("./Assets/bg5.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
   }
 }
 
@@ -452,6 +486,7 @@
     line-height: 3rem;
     font-weight: 600;
   }
+
   .bg-5 {
     background-image: url("./Assets/bg5.svg");
     background-repeat: no-repeat;
@@ -467,6 +502,7 @@
     line-height: 4rem;
     font-weight: 600;
   }
+
   .bg-5 {
     background-image: url("./Assets/bg5.svg");
     background-repeat: no-repeat;
@@ -488,7 +524,7 @@
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;

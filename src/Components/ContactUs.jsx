@@ -104,7 +104,7 @@ const ContactUs = (props) => {
                                 <div
                                     ref={errorRef}
                                     hidden={true}
-                                    className="emailError"
+                                    className="emailError t-orange"
                                 >
                                     Enter a Valid Email!
                                 </div>

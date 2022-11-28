@@ -16,7 +16,9 @@ const WeProvide = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="we-provide we-provide-spacer">We Provide</div>
+                    <div className="we-provide we-provide-spacer">
+                        We Provide
+                    </div>
                     <div className="provide-line1 line2-space">
                         The
                         <span className="text-pro px-1">safest</span>
@@ -30,18 +32,18 @@ const WeProvide = () => {
                     <div className="center">
                         <div className="services">
                             <div className="provide-card center">
-                                <div className="provide-text">
-                                    <span className="col-gray">Product </span>
-                                    Development
-                                </div>
-                            </div>
-                            <div className="provide-card center">
                                 <div className="provide-text">Consultancy</div>
                             </div>
                             <div className="provide-card center">
                                 <div className="provide-text">
                                     <span className="col-gray">Network </span>
                                     Setup
+                                </div>
+                            </div>
+                            <div className="provide-card center">
+                                <div className="provide-text">
+                                    <span className="col-gray">Product </span>
+                                    Development
                                 </div>
                             </div>
                             <div className="provide-card center">
