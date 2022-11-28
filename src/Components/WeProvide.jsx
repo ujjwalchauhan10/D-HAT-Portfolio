@@ -1,10 +1,10 @@
 import React from "react";
 
-const WeProvide = () => {
+const WeProvide = (props) => {
     return (
         <div>
             <div className="container-fluid bg-2">
-                <div className="row">
+                <div className="row" ref={props.refe}>
                     <div className="provide-line1 line1-space">
                         “The most suitable
                         <span className="text-pro px-1">

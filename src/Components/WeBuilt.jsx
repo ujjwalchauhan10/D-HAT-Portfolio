@@ -1,10 +1,10 @@
 import React from "react";
 import built from "../Assets/built.svg"
-const WeBuilt = () => {
+const WeBuilt = (props) => {
     return (
         <div>
             <div className="container-fluid bg-4">
-                <div className="row">
+                <div className="row" ref={props.refe}>
                     <div className="what">
                         What
                         <span className="we-have px-1">we have built</span>

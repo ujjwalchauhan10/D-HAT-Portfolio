@@ -55,7 +55,7 @@ const ContactUs = (props) => {
     return (
         <div>
             <div className="container-fluid">
-                <div className="container col-11 form-container">
+                <div className="container col-11 form-container" ref={props.refe}>
                     <form className="row" ref={formRef}>
                         <div className="col-lg-6 bg-5 center">
                             <div className="we-provide poppins">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import OnNetworks from "./OnNetworks";
 import WeProvide from "./WeProvide";
 import WeBuilt from "./WeBuilt";
@@ -6,6 +6,12 @@ import OurClients from "./OurClients";
 import Team from "../Components/Team";
 import ContactUs from "./ContactUs";
 const Landing = () => {
+    const refService = useRef(null);
+    const refProject = useRef(null);
+    const refClient = useRef(null);
+    const refTeam = useRef(null);
+    const refContact = useRef(null);
+
     return (
         <div>
             <div className="container-fluid bg-1 landing">
@@ -31,19 +37,44 @@ const Landing = () => {
                                 id="navbarText"
                             >
                                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0 my-4 nav-font">
-                                    <li className="nav-item text-white mx-4 ms-auto">
+                                    <li
+                                        className="nav-item text-white mx-4 ms-auto nav-text"
+                                        onClick={() => {
+                                            refService.current.scrollIntoView();
+                                        }}
+                                    >
                                         Services
                                     </li>
-                                    <li className="nav-item text-white mx-4 ms-auto">
+                                    <li
+                                        className="nav-item text-white mx-4 ms-auto nav-text"
+                                        onClick={() => {
+                                            refProject.current.scrollIntoView();
+                                        }}
+                                    >
                                         Projects
                                     </li>
-                                    <li className="nav-item text-white mx-4 ms-auto">
+                                    <li
+                                        className="nav-item text-white mx-4 ms-auto nav-text"
+                                        onClick={() => {
+                                            refClient.current.scrollIntoView();
+                                        }}
+                                    >
                                         Clients
                                     </li>
-                                    <li className="nav-item text-white mx-4 ms-auto">
+                                    <li
+                                        className="nav-item text-white mx-4 ms-auto nav-text"
+                                        onClick={() => {
+                                            refTeam.current.scrollIntoView();
+                                        }}
+                                    >
                                         Team
                                     </li>
-                                    <li className="nav-item text-white mx-4 ms-auto">
+                                    <li
+                                        className="nav-item text-white mx-4 ms-auto nav-text"
+                                        onClick={() => {
+                                            refContact.current.scrollIntoView();
+                                        }}
+                                    >
                                         Contact
                                     </li>
                                 </ul>
@@ -57,14 +88,18 @@ const Landing = () => {
                             <div className="row ">
                                 <div className="col-md-6">
                                     <div className="text-white landing-head">
-                                        <h1 className="landing-t-size">EXPLORE</h1>
+                                        <h1 className="landing-t-size">
+                                            EXPLORE
+                                        </h1>
                                         <h1 className="landing-t-size">The</h1>
                                         <h1 className="landing-t-size">New</h1>
-                                        <h1 className="landing-t-size">World</h1>
+                                        <h1 className="landing-t-size">
+                                            World
+                                        </h1>
                                         <h1 className="landing-t-size">
                                             OF
                                             <span className="t-red">
-                                                 WEB 3.0
+                                                WEB 3.0
                                             </span>
                                         </h1>
                                     </div>
@@ -86,13 +121,13 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            <WeProvide/>
+            <WeProvide refe={refService} />
             <div className="bg-stars">
-                <OnNetworks/>
-                <WeBuilt/>
-                <OurClients/>
-                <Team/>
-                <ContactUs/>
+                <OnNetworks />
+                <WeBuilt refe={refProject} />
+                <OurClients refe={refClient} />
+                <Team refe={refTeam} />
+                <ContactUs refe={refContact} />
             </div>
         </div>
     );

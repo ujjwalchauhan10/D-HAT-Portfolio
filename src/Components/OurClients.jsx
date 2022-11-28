@@ -4,11 +4,11 @@ import Battle from "../Assets/Client/Battle.svg";
 import Bobble from "../Assets/Client/Bobble.svg";
 import Cryptic from "../Assets/Client/Cryptic.svg";
 
-const OurClients = () => {
+const OurClients = (props) => {
     return (
         <div>
             <div className="container-fluid">
-                <div className="row">
+                <div className="row" ref={props.refe}>
                     <div className="our-clients">Our Clients</div>
                 </div>
                 <div className="row center client-spacer">

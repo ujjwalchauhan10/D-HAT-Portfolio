@@ -9,11 +9,11 @@ import naruto from "../Assets/Team/Naruto.svg";
 import aarush from "../Assets/Team/Aarush.svg";
 import aakarsh from "../Assets/Team/Aakarsh.svg";
 
-const Team = () => {
+const Team = (props) => {
     return (
         <div>
             <div className="container-fluid">
-                <div className="row">
+                <div className="row" ref={props.refe}>
                     <div className="we-provide">Meet Our</div>
                     <div className="provide-line1 text-pro col-gray">
                         team of
